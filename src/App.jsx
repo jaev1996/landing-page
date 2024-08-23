@@ -1,16 +1,12 @@
 import './App.css'
 import {Button} from "@nextui-org/button";
+import BarraNavegacion from './components/Navbar';
 function App() {
 
 
   return (
     <>
-      <h1 className="text-3xl font-bold">
-        TU PUTA MADRE WEY!!
-      </h1>
-      <Button color="primary">
-        Button
-      </Button>
+      <BarraNavegacion />
     </>
   )
 }
